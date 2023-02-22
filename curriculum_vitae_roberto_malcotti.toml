@@ -1,0 +1,47 @@
+# This is a curriculum vitae written using a TOML standard
+
+title = "Curriculum Vitae Roberto Malcotti"
+intro = """
+  An experienced full-stack data professional looking for opportunities 
+  to apply product development methodologies to create impactful data products, 
+  with a focus on simplicity, usability and design.
+  """
+
+[owner]
+name = "Roberto Malcotti"
+city = "Berlin"
+age = 33
+nationality = "Italian"
+
+[data]
+  [engineering]
+    cloud = ["AWS", "GCP", "DigitalOcean"]
+    injestion = ["Airbyte", "shell scripting", "cron jobs"]
+    datawarehouse = ["Snowflake", "BigQuery", "Redshift", "Postgres", "MongoDB"]
+  [analytics]
+    transformation = ["dbt", "Apache Airflow"]
+    dashboarding = ["Tableau", "Looker", "Metabase", "Superset"]
+  [product]
+    intro = """
+      I am strongly dedicated to applying Kata principles in order to 
+      create data products that meet both the business and user needs.
+      """
+  [design]
+    intro = """
+      Having a strong sense of design and aesthetics is a crucial asset that 
+      I bring to every data product I develop.
+      """
+    tools = ["Figma", "Material Design"]
+
+
+
+
+[contacts]
+email = "robimalco@gmail.com"
+github = "https://www.github.com/robertocommit"
+twitter = "https://www.twitter.com/robertocommit"
+linkedin = "https://www.linkedin.com/in/malcotti"
+website = "https://robimalco.netlify.app"
+business = "https://www.milhos.tech"
+picture = "https://avatars.githubusercontent.com/u/30242227?v=4"
+
